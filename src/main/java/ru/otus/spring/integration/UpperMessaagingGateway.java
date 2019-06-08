@@ -6,7 +6,7 @@ import org.springframework.integration.annotation.MessagingGateway;
 import java.util.Collection;
 
 @MessagingGateway
-public interface UpperService {
+public interface UpperMessaagingGateway {
 
     @SuppressWarnings("UnresolvedMessageChannel")
     @Gateway(requestChannel = "upper.input")
